@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    padding: 0;
+    margin: 0;
+}
+.ctr{
+    background-color: aquamarine;
+    margin:10px 70px;
+    padding: 30px;
+}
+h1{
+    margin: 5px auto;
+    text-align: center;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+}
+.group label{
+    margin-bottom: 5px;
+}
+.group input{
+    margin-bottom: 3px;
+    border-radius: 5px;
+    padding: 5px;
+}
+input:focus{
+   
+    outline: none;
+}
+.group .eror{
+    color: red;
+    margin-bottom: 5px;
+}
+#btn{
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgb(32, 93, 93);
+    outline: none;
+    border: none;
+    padding: 4px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid red;
+    color: white;
+}
+#btn:focus{
+    background-color: aquamarine;
+    color: black;
+}
+.sus{
+    border:2px solid green 
+}
+.err{
+    border:2px solid red
+}
